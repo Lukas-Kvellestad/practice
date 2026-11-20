@@ -3,10 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Mine kule og vidunderlige oppskrifter!" />
+    <title>Kanelknuter</title>
   </head>
   <body>
-    <h1>Goodbye world >:)</h1>
-    <h1>But hello LIFE BP</h1>
+    <header>
+      <img src="/logo" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Mine favorittoppskrifter</a></li>
+          <li><a href="#">Foreslå en oppskrift</a></li>
+          <li><a href="#">Kontakt meg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="/kanelknute.png" alt="To kanelsnurrer" />
+      <h1>Kanelknuter</h1>
+      <section>
+        <div>
+          <h2>Ingredienser</h2>
+          <div>
+            <form action="portions.js" method="post">
+              <button
+                id="quantDownBtn"
+                aria-label="Senk antall porsjoner"
+              ></button>
+              <input
+                type="number"
+                name="portions"
+                aria-label="Velg en porsjonsstørrelse"
+                min="1"
+                value="1"
+                id="foodPortionCounter"
+              />
+              <button id="quantUpBtn" aria-label="Øk antall porsjoner"></button>
+            </form>
+            <p>porsjoner</p>
+          </div>
+        </div>
+        <h3>Deig:</h3>
+        <ul>
+          <li><span>1 kg</span> hvetemel</li>
+          <li><span>2 dl</span> sukker</li>
+          <li><span>1 pk</span> fersk gjær</li>
+          <li><span>0,5 ts</span> salt</li>
+          <li><span>1 ts</span> malt kardemomme</li>
+          <li><span>1 stk</span> egg</li>
+          <li><span>6 dl</span> melk</li>
+          <li><span>150 g</span> smør</li>
+        </ul>
+        <h3>Fyll:</h3>
+        <ul>
+          <li><span>100 g</span> romtemperert smør</li>
+          <li><span>4 ss</span> sukker</li>
+          <li><span>1 ss</span> malt kanel</li>
+          <li><span>1 ss</span> maisenna</li>
+        </ul>
+        <h3>Til pensling:</h3>
+        <ul>
+          <li><span>1 stk</span> egg</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Slik gjør du</h2>
+        <ol>
+          <li>
+            Kutt smøret i terninger, og la det temperere seg litt mens deigen
+            elter.
+          </li>
+          <img src="/bolle1" alt="Bolle" />
+          <li>
+            Ha hvetemel, sukker, gjær, salt og kardemomme i en bakebolle til
+            kjøkkenmaskin. Bruker du fersk gjær kan du smuldre gjæren i bollen,
+            eller røre den ut i melken. Alt vil ettehvert blande seg godt, så
+            begge deler er like bra.
+          </li>
+          <img src="/bolle2" alt="Bolle" />
+          <li>
+            Ha i egg, og spe med melk (kald eller romtemperert). Hold tilbake
+            1/2 dl, tilsett mer melk etter hvert hvis deigen virker for fast.
+          </li>
+          <img src="/bolle3" alt="Bolle" />
+          <li>
+            Sett i en deigkrok i kjøkkenmaskinen og elt deigen i ca 15 minutter.
+          </li>
+          <img src="/bolle4" alt="Bolle" />
+          <li>
+            Tilsett temperert smør i terninger og elt deigen videre i ca. 10
+            minutter, til deigen er myk og elastisk. Ta gjerne "glutentesten"
+            mot slutten av eltingen. Strekk en liten deigklump mellom fingrene
+            og forsøk å få en tynn, gjennomsiktig hinne. Er deigen elastisk og
+            smidig er den klar for heving, er den "kort" og revner - elt litt
+            til.
+          </li>
+        </ol>
+      </section>
+    </main>
   </body>
 </html>
